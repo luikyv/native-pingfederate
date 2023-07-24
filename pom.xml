@@ -36,14 +36,14 @@
             <artifactId>pf-protocolengine</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>src/main/resources/.pf-protocolengine.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/pf-protocolengine.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.pingfederate</groupId>
             <artifactId>pf-authn-api-sdk</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>src/main/resources/.pf-authn-api-sdk-1.0.0.77.jar</systemPath>
+            <systemPath>${project.basedir}/src/main/resources/pf-authn-api-sdk-1.0.0.77.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.pingfederate</groupId>
